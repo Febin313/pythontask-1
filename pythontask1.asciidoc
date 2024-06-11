@@ -1,0 +1,92 @@
++*In[2]:*+
+[source, ipython3]
+----
+#creating a list
+list = [2,4,6,8,10]
+
+#adding an element to list
+list.append(6)
+
+#removing an element from list
+list.remove(4)
+
+#modifying an element in list
+list[0]=10
+
+print("updated list=",list)
+
+
+----
+
+
++*Out[2]:*+
+----
+updated list= [10, 6, 8, 10, 6]
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[5]:*+
+[source, ipython3]
+----
+#creating a set
+set = {2,4,6,8,10}
+
+#adding an element to set
+set.add(7)
+
+#removing an element from set
+set.remove(4)
+
+#modifying an element in set
+set.discard(2)
+set.add(14)
+
+print("updated set=",set)
+
+----
+
+
++*Out[5]:*+
+----
+updated set= {6, 7, 8, 10, 14}
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+#creating a dictionary
+dict = {'name': 'febin', 'age' : '20', 'city' : 'Istanbull'} 
+
+#adding an element to dictionary
+dict['gender']='male'
+
+#removing an element from dictionary
+del dict['age']
+
+#modifying an element in dictionary
+dict['city']='Banglore'
+
+print("updated dict=",dict)
+
+----
+
+
++*Out[6]:*+
+----
+updated dict= {'name': 'febin', 'city': 'Banglore', 'gender': 'male'}
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
